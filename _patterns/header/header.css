@@ -1,0 +1,39 @@
+header {
+  color: #fff;
+}
+
+li:hover a {
+  color: #c79859;
+}
+
+.bg-blue {
+  background-color: var(--color-accent-blue);
+}
+
+.logo {
+  text-align: center;
+}
+
+.pad-right {
+  padding-right: 1em;
+}
+
+.pad-left {
+  padding-right: 1em;
+}
+
+.current {
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .navigation {
+    text-align: right;
+  }
+
+}

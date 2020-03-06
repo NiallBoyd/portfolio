@@ -1,0 +1,41 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons becuase they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic Button"
+    description: |
+      Default to using the basic button. It should always be used in front of the light background.
+    background: "--color-accent-blue"
+    fields:
+     - name: text
+       type: string
+       example: "Go To ..."
+     - name: url
+       type: url
+       example: "#"
+  banner-btn:
+    title: "Banner Button"
+    description: |
+      The banner button is specifically for banner, where it will be placed in front of busy images.
+    background: "--color-accent-blue"
+    fields:
+     - name: text
+       type: string
+       example: "Buy Now"
+     - name: url
+       type: url
+       example: "#"
+  footer-btn:
+    title: "Footer Button"
+    description: |
+      The is the button for every footer, it is white and is on every page.
+    background: "--color-accent-blue"
+    fields:
+     - name: text
+       type: string
+       example: "HOME"
+     - name: url
+       type: url
+       example: "#"

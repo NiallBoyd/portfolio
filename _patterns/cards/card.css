@@ -1,0 +1,20 @@
+.card-img {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.bg-green {
+  background-color: var(--color-accent-green);
+}
+
+.bg-gold {
+  background-color: var(--color-secondary);
+}
+
+.h2-brown {
+  color: var(--color-primary);
+}
+
+.text-blue {
+  color: var(--color-accent-blue);
+}

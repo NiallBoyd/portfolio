@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  This is the cards.
+
+patterns:
+  card-1:
+    title: "Card One"
+    description: |
+      This on the main page going to each type of coffee.
+    background: "--color-accent-blue"
+    fields:
+     - name: data
+       type: object
+       data:
+         source: "site.products[0]"
+         type: Product
+  card-purchase:
+    title: "Purchase Card"
+    description: |
+      This where you purchase a cup of coffee.
+    background: "--color-accent"

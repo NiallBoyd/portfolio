@@ -1,0 +1,23 @@
+footer {
+  background-color: var(--color-accent-blue);
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+  color: #fff;
+  font-family: sans-serif;
+}
+
+a {
+  font-family: var(--font-primary);
+  color: #fff;
+
+}
+
+.fr {
+  border-color: #fff;
+  border-width: thick;
+}

@@ -1,0 +1,26 @@
+title: "Forms"
+description: |
+  This is the forms.
+
+patterns:
+  email:
+    title: "Email Field"
+    description: |
+      Email field is where you write your email.
+  name:
+    title: "Name Field"
+    description: |
+      Name field is where you write your first name and last name.
+    background: "--color-accent"
+  subject:
+    title: "Subject Field"
+    description: |
+      Subject field is where you write your subject of the topic.
+  text-field:
+    title: "Text Box Field"
+    description: |
+      Text box field is a description field is where you write your question and comment.
+  number-picker:
+    title: "Number Picker Field"
+    description: |
+      Number field is where you write your number of copies.

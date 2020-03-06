@@ -1,0 +1,97 @@
+:root {
+  --color-primary: #6a5246;
+  --color-secondary: #c79859;
+  --color-accent: #fff;
+  --color-accent-blue: #536278;
+  --color-accent-green: #8D9D8F;
+
+  --font-primary: "modesto-initials", serif;
+  --font-secondary: "modesto-poster", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+font-family: var(--font-secondary);
+font-weight: 400;
+font-style: normal;
+}
+
+a {
+font-family: var(--font-secondary);
+font-weight: 500;
+font-style: normal;
+text-decoration: none;
+color: black;
+}
+
+mark {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+
+.max-space {
+  max-width: 28em;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.extra-space {
+  padding-top: 180px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .extra-space {
+    padding-top: 150px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .extra-space {
+    padding-top: 130px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .extra-space {
+    padding-top: 140px;
+  }
+
+}
