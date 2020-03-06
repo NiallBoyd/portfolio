@@ -1,3 +1,39 @@
 permalink: pretty
-
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Coffee"
+  description: |
+    A small old coffee shop.
+
+  font_url: "https://use.typekit.net/gkk5zti.css"
+
+  colors:
+    background: "--color-accent"
+    accent: "--color-accent-blue"
+    patterns:
+      brand.logos: "--color-accent-blue"
+  rationales:
+    typefaces.primary: |
+      To give a old school brand to a modern cite.
+    typefaces.secondary: |
+      To give a font the reflect the same as the primary font.
+    colors.primary: |
+      To reflect a coffee bean colour.
+    colors.secondary: |
+      To reflect a contrast to the primary color.
+    colors.accent: |
+      To reflect make the text be more seen.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
