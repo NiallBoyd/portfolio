@@ -2,6 +2,7 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-accent);
+  max-width: 10em;
 }
 
 .btn:hover {
