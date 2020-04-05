@@ -8,8 +8,13 @@
     <ul class="list-group-inline text-center navigation push-0">
       <li class="pad-right pad-left push-1-2"><a class="{% if page.highlight_nav == 'home' %}current{% endif %}" href="/" aria-label="This button takes you to the Home">HOME</a></li>
       <li class="pad-right pad-left push-1-2"><a class="{% if page.highlight_nav == 'products' %}current{% endif %}" href="/products/" aria-label="This button takes you to the Work">WORK</a></li>
-      <li class="pad-right pad-left push-1-2"><a href="#" aria-label="This button takes you to the About">ABOUT</a></li>
-      <li class="pad-right pad-left push-1-2"><a href="" aria-label="This button takes you to the Contact">CONTACT</a></li>
+
+  <li class="pad-right pad-left push-1-2"><a class="{% if page.highlight_nav == 'about' %}current{% endif %}" href="/about/" aria-label="This button takes you to the Work">ABOUT</a></li>
+
+  <li class="pad-right pad-left push-1-2"><a class="{% if page.highlight_nav == 'forms' %}current{% endif %}" href="/forms/" aria-label="This button takes you to the Work">CONTACT</a></li>
+
+
+
     </ul>
   </nav>
 </header>

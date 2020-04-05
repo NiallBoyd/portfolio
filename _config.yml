@@ -6,7 +6,7 @@ patternbot:
   description: |
     A small old coffee shop.
 
-  font_url: "https://use.typekit.net/gkk5zti.css"
+  font_url: "https://use.typekit.net/mcr1irx.css"
 
   colors:
     background: "--color-accent"

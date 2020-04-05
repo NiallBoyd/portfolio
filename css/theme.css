@@ -5,8 +5,8 @@
   --color-accent-blue: #283f66;
   --color-accent-green: #e6dd7b;
 
-  --font-primary: "modesto-initials", sans-serif;
-  --font-secondary: "modesto-initials", sans-serif;
+  --font-primary: "adrianna-extended", sans-serif;
+  --font-secondary: "adrianna-condensed", sans-serif;
 }
 
 html {
@@ -15,19 +15,19 @@ html {
 
 h1 {
   font-family: var(--font-primary);
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
 }
 
 h2 {
   font-family: var(--font-primary);
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
 }
 
 h3 {
   font-family: var(--font-secondary);
-  font-weight: 700;
+  font-weight:  400;
   font-style: normal;
 }
 
@@ -39,7 +39,7 @@ font-style: normal;
 
 a {
 font-family: var(--font-secondary);
-font-weight: 500;
+font-weight: 800;
 font-style: normal;
 text-decoration: none;
 color: black;

@@ -1,9 +1,10 @@
 ---
-name: "Light Roast Coffee"
+name: "ILLUSTRATION"
 description: |
   about
-image: "crop/1.jpg"
+video: "https://www.youtube.com/watch?v=7gzXJBSXE10"
 price: 9
-coffee-type: "Light Roast Coffee"
-title: "Illustration"
+coffee-type: "ILLUSTRATION"
+title: "ILLUSTRATION"
+
 ---
