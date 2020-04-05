@@ -2,9 +2,10 @@
 name: "ILLUSTRATION"
 description: |
   about
-video: "https://www.youtube.com/watch?v=7gzXJBSXE10"
+color: "#585656;"
 price: 9
 coffee-type: "ILLUSTRATION"
 title: "ILLUSTRATION"
+
 
 ---

@@ -1,10 +1,9 @@
 ---
-name: "Forest Ground Black"
+name:  "BRANDING & RESEARCH"
 description: |
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 image: "crop/3.jpg"
 price: 9
 coffee-type: "Black Coffee"
 title: "BRANDING & RESEARCH"
-link: "https://www.youtube.com/watch?v=7gzXJBSXE10"
 ---
