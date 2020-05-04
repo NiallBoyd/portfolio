@@ -55,6 +55,10 @@ mark {
   max-width: 28em;
 }
 
+.product-space {
+  padding-top: 100px;
+}
+
 .skip-links a {
   position: absolute;
   top: -10em;
@@ -70,6 +74,12 @@ mark {
 
 .extra-space {
   padding-top: 180px;
+}
+
+.center-blah {
+   margin: auto;
+  width: 0%;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 25em) {
