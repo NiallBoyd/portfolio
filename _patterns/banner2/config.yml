@@ -1,0 +1,32 @@
+title: "Banners"
+description: |
+  This is the banners. The banners is used for...
+
+patterns:
+  main-banner:
+    title: "Main Banner"
+    description: |
+      This can be used on the homepage and is the first button you see.
+    fields:
+     - name: button_text
+       type: string
+       example: "Go To ..."
+       required: false
+     - name: button_url
+       type: string
+       example: "#"
+       required: false
+  project-banner:
+    title: "Project Banner"
+    description: |
+      This button will link you to the different coffee found on the site.
+    fields:
+     - name: title
+       type: string
+       example: "BLACK COFFEE"
+     - name: description
+       type: string
+       example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+     - name: image
+       type: string
+       example: "after-effect-deer.png"
